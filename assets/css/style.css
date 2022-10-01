@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: 1366px;
+    height: 771px;
+    color: var(--black);
+
+}
+
+#countdown{
+    width: 494px;
+    height: 172px;
+    margin: 50px 60px;
+}
+
+#title{
+    width: 486px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    color: var(--purple);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+#timer{
+    display: flex;
+    justify-content: space-around;
+    color: var(--light-grey);
+}
+#days{
+    width: 30px;
+    height: 21px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+#hours{
+    width: 30px;
+    height: 21px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+#minutes{
+    width: 30px;
+    height: 21px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+#seconds{
+    width: 30px;
+    height: 21px;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+#counter{
+    width: 494px;
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+}
+
+.colon{
+    margin: 25px;
+}
+
+#subscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    font-size: 14px;
+    color: var(--light-grey);
+}
+
+button {
+    width: 160px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 7px;
+    border-color: var(--purple);
+    background-color: var(--purple);
+    font-size: 16px;
+    color: var(--light-grey);
+}
+
+button:hover {
+    background-color: var(--light-grey);
+    color: var(--purple);
+    transition: .3s;
+    cursor: pointer;
+}
+#rocket{
+    float: right;
+    margin-right: 85px;
+}
