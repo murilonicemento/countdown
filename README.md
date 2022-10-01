@@ -2,7 +2,7 @@
 Projeto criado através da plataforma Rocketseat na trilha Explorer.
 ## Deploy da aplicação
 
-
+https://cowdow.netlify.app/
 
 ## Tecnologias utilizadas
 
