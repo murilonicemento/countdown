@@ -19,4 +19,4 @@ https://cowdow.netlify.app/
 
 ## Tela Inicial 
 
-<img src="assets/img/countdown.png">
+<img src=".github/countdown.png">
